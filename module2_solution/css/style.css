@@ -7,9 +7,7 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-div {
 
-}
 p {
   border: solid black;
   background-color: gray;
@@ -41,8 +39,6 @@ h2 {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-  }
-  .col-lg-4 {
     width: 33.33%;
   }
 }
@@ -63,8 +59,6 @@ h2 {
 @media (max-width: 767px) {
  .col-sm-12 {
     float: left;
-  }
-  .col-sm-12 {
     width: 100%;
   }
 }
