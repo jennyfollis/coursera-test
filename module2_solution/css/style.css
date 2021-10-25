@@ -1,0 +1,70 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+div {
+
+}
+p {
+  border: solid black;
+  background-color: gray;
+  padding: 55px 20px 20px 20px;
+  margin: 10px;
+  color: black;
+}
+
+h2 {
+  width: 200px;
+  text-align: center;
+  border: solid black;
+  float: right;
+  margin: 10px;
+}
+#menu1 {
+  background-color: pink;
+  color: black;
+}
+#menu2 {
+  background-color: #A52A2A;
+  color: white;
+}
+#menu3 {
+  background-color: tan;
+  color: black;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+ .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
